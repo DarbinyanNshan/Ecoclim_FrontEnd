@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: "Roboto";
+
+}
+:root {
+  --secound-bg-color: #00024a;
+  --bg-color: #fff;
+  --text-color: #757575;
+  --content-color:#ed8506;
+  --title-color: #000000;
+}
+
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secound-bg-color);
+  border-radius: 60vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-color);
+}

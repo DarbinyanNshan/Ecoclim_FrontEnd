@@ -1,0 +1,24 @@
+.top-btn {
+    position: fixed;
+    height: 2.2rem;
+    width: 2.2rem;
+    right: 2.2rem;
+    bottom: 2.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--content-color);
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(7, 7, 7, 0.603);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000; 
+  }
+  
+  .top-btn:hover {
+    background-color: var(--secound-bg-color);
+    color: var(--content-color);
+    border-color: var(--secounf-bg-color);
+    transform: scale(1.1);
+  }
+  

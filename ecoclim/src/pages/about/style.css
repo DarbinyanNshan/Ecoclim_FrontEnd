@@ -1,0 +1,112 @@
+.about-img {
+    background: url(../../assets/images/bg-img.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    filter: brightness(0.9);
+}
+
+.about-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.about-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    z-index: 1;
+}
+
+.about-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--bg-color);
+}
+
+.about-text h6 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--content-color);
+    cursor: pointer;
+}
+
+.about-text h6 span {
+    color: var(--bg-color);
+}
+
+.about_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 5rem;
+}
+
+.about_text {
+    flex: 1;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.about_text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--title-color);
+}
+.about_text p {
+    color: var(--text-color);
+}
+.about_text h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--title-color);
+}
+
+.about_text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+.about_text li {
+    margin-bottom: 0.5rem;
+}
+
+.about-image {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Փոքր էկրանների հարմարեցում */
+@media (max-width: 768px) {
+    .about_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text h1 {
+        font-size: 2rem;
+    }
+
+    .about_text h2,
+    .about_text h3 {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,183 @@
+.slider-container {
+  width: 100%;
+  z-index: 5;
+  position: relative;
+}
+
+.slick-slide {
+  position: relative;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  filter: brightness(0.7);
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  z-index: 1000;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+.slick-dots li button {
+  display: none !important;
+}
+
+.overlay h3 {
+  width: auto;
+  animation-delay: 0.5s;
+  margin: 2rem 0;
+  opacity: 0;
+  color: var(bg-color);
+  animation: fadeInUp 1s ease-in-out forwards;
+  font-size: clamp(2.5rem, 4vw, 4rem); 
+}
+
+.overlay p {
+  width: 600px;
+  font-size: 1.6rem;
+  animation: homeContenhp 2s ease-in-out;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+}
+
+@media (min-width: 2560px) {
+  .slick-slide img {
+    height: 75rem;
+  }
+
+  .overlay h3 {
+    font-size: 6rem;
+  }
+
+  .overlay p {
+    font-size: 2.5rem;
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .slick-slide img {
+    height: 60rem;
+  }
+
+  .overlay h3 {
+    font-size: 5rem;
+  }
+
+  .overlay p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .overlay {
+    right: 5rem;
+  }
+
+  .overlay h3 {
+    width: auto;
+    font-size: 2rem;
+    animation-delay: 0.5s;
+  }
+
+  .overlay p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .overlay {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 90%;
+    max-width: none;
+  }
+
+  .overlay h3 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    width: auto;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .overlay {
+    right: 2rem;
+  }
+
+  .overlay h3 {
+    font-size: 2rem;
+  }
+
+  .btn_slider1 {
+    width: auto;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes homeContenbtn {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes homeContenhp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}

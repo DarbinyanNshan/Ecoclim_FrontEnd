@@ -1,0 +1,149 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    gap: 1rem;
+  }
+  
+  .card {
+    border: 1px solid rgba(0, 0, 0, 0.047);
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+    position: relative; 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0; 
+    height: 6px; 
+    background-color: var(--secound-bg-color);
+    transition: all 0.4s ease-in-out; 
+    transform: translateX(-50%); 
+  }
+  
+  .card:hover::after {
+    width: 100%; 
+  }
+  
+  
+  .card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 1rem;
+    transform-origin: center bottom;
+  }
+  
+  .card h3 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--title-color);
+
+  }
+  
+  .card p {
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .pagination {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 0.5rem;
+    color: var(--secound-bg-color);
+    padding: 0.5rem 1rem;
+    border: solid 1px var(--secound-bg-color);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: var(--secound-bg-color);
+    color: var(--bg-color);
+  }
+  
+  .pagination button.active {
+    background-color: var(--secound-bg-color);
+    color: var(--bg-color);
+    box-shadow: 0 2px 4px var(--secound-bg-color);
+  }
+  .search-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    background-color:rgb(245, 245, 245);
+    padding: 2rem;
+      gap: 10px; 
+      text-align: left;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    color: var(--secound-bg-color);
+    transition: border-color 0.3s; 
+  }
+  
+  .search-input:focus {
+    border-color: var(--secound-bg-color); 
+    outline: none; 
+  }
+  .no-results {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #888; 
+  }
+  .clear-input{
+    color: var(--secound-bg-color);
+    padding: 0.5rem ;
+    background-color: var(--main-color);
+    border-color: var(--secound-bg-color);
+  }
+  .clear-input:hover{
+    color: black;
+    background-color: red;
+  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 45%;
+    }
+    .search-inputs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      width: 90%;
+    }
+  }

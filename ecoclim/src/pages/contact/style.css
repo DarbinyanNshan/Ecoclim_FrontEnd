@@ -1,0 +1,248 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-img {
+    background: url(../../assets/images/bg-img.jpg) no-repeat center/cover;
+    filter: brightness(0.9);
+    width: 100%;
+    height: 30vh;
+    position: relative;
+
+}
+
+.contact-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.contact-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    text-align: left;
+    z-index: 1;
+}
+
+.contact-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--bg-color);
+}
+
+.contact-text h6 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--content-color);
+}
+.contact-text h6 :hover{
+    cursor: pointer;
+}
+.contact-text span {
+    color: var(--bg-color);
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-form {
+    width: 50%;
+    min-width: 320px;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2{
+    color: var(--title-color);
+    margin: 1rem 0;
+}
+.messeg-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    position: relative;
+    flex: 1;
+    min-width: calc(50% - 1rem);
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-field input:focus {
+    border-color: var(--content-color);
+}
+
+.textarea-field {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.textarea-field textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    transition: border-color 0.3s;
+}
+
+.textarea-field textarea:focus {
+    border-color: var(--content-color);
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: var(--content-color);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-btn:hover {
+    background-color:  var(--bg-color);
+    color: var(--content-color);
+}
+
+.contact-content {
+    display: flex;
+}
+
+.contact-info {
+    margin: 5rem 2rem;
+}
+
+.contact-border {
+    margin: 1rem 0;
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    color: var(--title-color);
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: var(--title-color);
+}
+
+.contact-p {
+    margin-left: 2rem;
+    color: var(--text-color);
+}
+
+.website_icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0.2rem 1.2rem;
+}
+
+.website_icon>div>a {
+    font-size: 1.5rem;
+    border: 1px solid;
+    margin-right: 0.6rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: var(--secound-bg-color);
+    border-radius: 1rem;
+}
+
+.website_icon .fa>a:hover {
+    background-color: #3b5998;
+    transition: 0.6s ease-in-out;
+}
+
+.website_icon .in>a:hover {
+    background-color: #e7406b;
+    transition: 0.6s ease-in-out;
+}
+
+.website_icon .li>a:hover {
+    background-color: #0e76a8;
+    transition: 0.6s ease-in-out;
+}
+
+.website_icon .yt>a:hover {
+    background-color: #ff0000;
+    transition: 0.6s ease-in-out;
+}
+
+.contact-map>iframe {
+    width: 100%;
+}
+@media (max-width: 1000px) {
+    .contact-form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .input-box {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .messeg-title {
+        font-size: 1.5rem;
+    }
+
+    .input-box {
+        gap: 0.5rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
