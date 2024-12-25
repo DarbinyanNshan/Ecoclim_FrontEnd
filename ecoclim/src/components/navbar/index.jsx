@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 import "./style.css";
 import logo from "../../assets/images/logo.png";
@@ -17,6 +17,7 @@ export const NavBar = () => {
     const [isFixed, setIsFixed] = useState(false);
     const { t } = useTranslation();
     const navRef = useRef(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -64,8 +65,13 @@ export const NavBar = () => {
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
-            behavior: 'smooth' 
+            behavior: 'smooth'
         });
+    };
+
+    const onClick = () => {
+        navigate('/');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
@@ -87,7 +93,7 @@ export const NavBar = () => {
                 </div>
             </div>
             <nav ref={navRef} className={`navbar ${isFixed ? "fixed" : ""}`}>
-                <div className="logo">
+                <div className="logo" onClick={onClick}>
                     <img src={logo} alt="Logo" />
                 </div>
                 <div className={`nav-links ${isOpen ? "open" : ""}`}>

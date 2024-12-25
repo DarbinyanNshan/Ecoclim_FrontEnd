@@ -12,7 +12,7 @@
   }
   
   .main-slide .main-image {
-    width: 100%;
+    width: 90%;
     height: 20rem; 
     object-fit: cover;
     border-radius: 10px;

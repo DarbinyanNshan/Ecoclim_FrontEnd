@@ -41,7 +41,7 @@ export const ProductCard = () => {
       title: t('product.fullName2'),
       description: t('product.description2'),
       image: img2,
-    }, 
+    },
     {
       title: t('product.fullName3'),
       description: t('product.description3'),
@@ -149,7 +149,7 @@ export const ProductCard = () => {
 
   return (
     <div>
-    {/* <div className="search-inputs">
+      {/* <div className="search-inputs">
       <div className="search-input-container">
         <input
           type="text"
@@ -175,22 +175,22 @@ export const ProductCard = () => {
         )}
       </div>
     </div> */}
-    <div className="card-container">
-      {currentCards.length > 0 ? (
-        currentCards.map((card, index) => (
-          <Card key={index} content={card} />
-        ))
-      ) : (
-        <p className="no-results">{t('noResults.message')}</p>
+      <div className="card-container">
+        {currentCards.length > 0 ? (
+          currentCards.map((card, index) => (
+            <Card key={index} content={card} />
+          ))
+        ) : (
+          <p className="no-results">{t('noResults.message')}</p>
+        )}
+      </div>
+      {totalPages > 1 && (
+        <Pagination
+          totalPages={totalPages}
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
       )}
     </div>
-    {totalPages > 1 && (
-      <Pagination
-        totalPages={totalPages}
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-    )}
-  </div>
   );
 };

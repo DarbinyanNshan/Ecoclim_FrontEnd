@@ -7,7 +7,7 @@ export const Pagination = ({ totalPages, currentPage, handlePageChange }) => {
 
   const handlePageClick = (page) => {
     handlePageChange(page);
-    window.scrollTo({ top: 300, behavior: 'smooth' }); 
+    window.scrollTo({ top: 300, behavior: 'smooth' });
   };
 
 
@@ -18,7 +18,7 @@ export const Pagination = ({ totalPages, currentPage, handlePageChange }) => {
         onClick={() => handlePageClick(currentPage - 1)}
         className="pagination-icon"
       >
-        <FaAngleLeft /> 
+        <FaAngleLeft />
       </button>
     );
   }

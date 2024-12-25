@@ -38,7 +38,7 @@
 .contact-text h1 {
     font-size: 3rem;
     margin: 0;
-    color: var(--bg-color);
+    color: var(--title-color);
 }
 
 .contact-text h6 {
@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 .contact-text span {
-    color: var(--bg-color);
+    color: var(--title-color);
 }
 
 .contact-me {
@@ -149,6 +149,7 @@
 
 .contact-content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-info {
@@ -244,5 +245,14 @@
     .contact-btn {
         width: 100%;
         text-align: center;
+    }
+    .contact-form{
+        width: 50%;
+        min-width: 300px;
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+    .contact-me{
+        padding:0.5rem;
     }
 }

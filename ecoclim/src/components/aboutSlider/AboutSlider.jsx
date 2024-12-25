@@ -5,10 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./AboutSlider.css";
 import img1 from "../../assets/images/slider/sliderImg1.jpg";
 import img2 from "../../assets/images/slider/sliderImg2.jpg";
-import img3 from "../../assets/images/slider/sliderImg3.jpg";
-import img4 from "../../assets/images/slider/sliderImg3.jpg";
-import img5 from "../../assets/images/slider/sliderImg3.jpg";
-import img6 from "../../assets/images/slider/sliderImg3.jpg";
 
 const AboutSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -43,7 +39,7 @@ const AboutSlider = () => {
     ],
   };
 
-  const images = [img1, img2, img3, img4, img5, img6];
+  const images = [img1, img2];
 
   return (
     <div className="slider-component">

@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: var(--bg-color);
 }
 
 .mainLogo {
@@ -21,5 +21,30 @@
     }
     100% {
         opacity: 0;
+    }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .mainLogo {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .mainLogo {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainLogo {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainLogo {
+        width: 20rem;
     }
 }

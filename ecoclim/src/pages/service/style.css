@@ -34,7 +34,7 @@
 .service_text h1 {
     font-size: 3rem;
     margin: 0;
-    color: var(--bg-color);
+    color: var(--title-color);
 }
 
 .service_text h6 {
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 .service_text span {
-    color: var(--bg-color);
+    color: var(--title-color);
 }
 
 .service1 {

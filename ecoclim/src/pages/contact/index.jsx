@@ -12,7 +12,6 @@ import { IoMdMail } from "react-icons/io";
 import { BiLogoFacebook } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
 export const ContactUs = () => {
@@ -144,19 +143,19 @@ export const ContactUs = () => {
                                 <div className="website_icon">
             <div className="fa">
               <a
-                href="https://www.facebook.com/smconsultingarmenia"
+                href="https://www.facebook.com/share/1A3YvLdrsD/?mibextid=wwXIfr"
                 aria-label="Facebook"
               >
                 <BiLogoFacebook />
               </a>
             </div>
             <div className="in">
-              <a href="#" onClick={(e) => e.preventDefault()} aria-label="Instagram">
+              <a href="https://www.instagram.com/ecoclim.am/?igsh=MTZiMThoNGc1b3BoYg%3D%3D#"  aria-label="Instagram">
                 <FaInstagram />
               </a>
             </div>
             <div className="li">
-              <a href="#" onClick={(e) => e.preventDefault()} aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/eco-clim-armenia/"  aria-label="LinkedIn">
                 <BiLogoLinkedin />
               </a>
             </div>

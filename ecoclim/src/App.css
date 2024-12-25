@@ -3,15 +3,27 @@
   padding: 0;
   box-sizing: border-box ;
   font-family: "Roboto";
-
 }
+
+body {
+  background-color: black;
+}
+
 :root {
+  --secound-bg-color: #0a0a23; 
+  --secound-color:#1b1b1b;
+  --bg-color: #000000; 
+  --text-color: #b3b3b3;
+  --content-color: #ffaa00; 
+  --title-color: #ffffff;
+}
+/* :root {
   --secound-bg-color: #00024a;
   --bg-color: #fff;
   --text-color: #757575;
   --content-color:#ed8506;
-  --title-color: #000000;
-}
+  --title-color: #ffffff;
+} */
 
 
 ::-webkit-scrollbar {
