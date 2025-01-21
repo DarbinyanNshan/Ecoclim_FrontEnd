@@ -9,6 +9,7 @@ import { Service } from "../pages/service";
 import { ContactUs } from "../pages/contact";
 import { Product } from "../pages/product";
 import { Footer } from "../components/footer";
+import { Projects } from "../pages/projects";
 
 
 
@@ -25,6 +26,7 @@ export const Router = () => {
                 <Route path="/service" element={<Service />} />
                 <Route path="/product" element={<Product />} />
                 <Route path="/contact" element={<ContactUs />} />
+                <Route path="/projects" element={<Projects />} />
             </Routes>
             </div>
             <Footer/>

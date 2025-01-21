@@ -4,7 +4,6 @@
   align-items: center;
   height: 2.2rem;
   width: 100%;
-  background-color: var(--bg-color);
 }
 
 .no-scroll {
@@ -98,7 +97,6 @@
   display: none;
 }
 
-/* Մոբայլ տարբերակ */
 @media (max-width: 1180px) {
   .info {
     display: none;
@@ -116,7 +114,7 @@
   .nav-links a {
     margin-top: 3rem;
     margin-left: 0;
-    color: var(--bg-color);
+    color: var(--title-color);
   }
 
   .navbar > .nav-links {
@@ -157,8 +155,9 @@
     top: 1rem;
     right: 1rem;
     font-size: 2rem;
-    color: var(--bg-color);
+    color: var(--title-color);
     cursor: pointer;
     z-index: 12;
   }
 }
+

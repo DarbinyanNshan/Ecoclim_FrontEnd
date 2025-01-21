@@ -100,6 +100,10 @@
   .overlay p {
     font-size: 1.2rem;
   }
+  .slick-slide img{
+    max-width: 1000px;
+    max-height: 40rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -119,6 +123,10 @@
   .overlay p {
     width: auto;
   }
+  .slick-slide img{
+    width: 900px;
+    max-height: 30rem;
+  }
 }
 
 
@@ -133,6 +141,10 @@
 
   .btn_slider1 {
     width: auto;
+  }
+  .slick-slide img{
+    width: 600px;
+    max-height: 25rem;
   }
 }
 

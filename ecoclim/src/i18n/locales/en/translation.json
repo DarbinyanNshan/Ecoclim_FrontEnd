@@ -1,9 +1,157 @@
 {
-    "address": "Yerevan, Erebuni 11",
-    "navBar": {
-      "home": "Home",
-      "service": "Services",
-      "about": "About Us",
-      "contact": "Contact"
+  "address": "Yerevan, Erebuni 11",
+  "navBar": {
+    "home": "Home",
+    "service": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "about": "About Us",
+    "product": "Product Catalog"
+  },
+  "sliderHome": {
+    "welcome": "ECO CLIM",
+    "trust_us": "Reliable solutions for comfortable living"
+  },
+  "home": {
+    "our": "Our",
+    "learnMore": "Learn More",
+    "comfort_message": "From design to professional installation",
+    "service_description": "Complete implementation of your ideas.",
+    "we_provide": "Our team develops precise blueprints and performs high-quality installation while adhering to all standards and quality norms.",
+    "comfort": "Trust us to bring your projects to life.",
+    "why_choose_us": "Why Choose Us?",
+    "engineering_solutions": "Leading engineering solutions",
+    "efficiency": "High efficiency and the right design approach",
+    "high_quality_equipment": "High-quality equipment",
+    "energy_efficiency": "Energy-efficient technologies",
+    "professional_installation": "Professional installation",
+    "ventilation": "Ventilation",
+    "ventilation_description": "Clean air circulation, moisture control, and comfortable conditions.",
+    "heating_cooling": "Heating and Cooling",
+    "heating_cooling_description": "Temperature control for optimal comfort in all seasons.",
+    "smoke_extraction": "Smoke Extraction and Firefighting",
+    "smoke_extraction_description": "Ensuring safety with rapid smoke removal and fire prevention.",
+    "water_supply_sewerage": "Water Supply and Sewerage",
+    "water_supply_sewerage_description": "Clean water supply, efficient wastewater removal, and hygiene maintenance.",
+    "services": {
+      "ventilation": {
+        "content": "Ventilation systems ensure clean, fresh, and healthy air in your homes, offices, and industrial spaces. They are essential for both maintaining health and creating a comfortable environment.",
+        "text1": "🌬️ Ventilation systems remove dust, toxins, and excess moisture, creating a clean and healthy environment.",
+        "text2": "🏠 Proper ventilation regulates temperature and humidity, making your daily life more comfortable.",
+        "text3": "🔧 We offer modern ventilation systems that are not only efficient but also energy-saving, ensuring long-term operation.",
+        "text4": "💡 Choose a high-quality ventilation system to improve your health, work productivity, and daily comfort."
+      },
+      "heating_cooling": {
+        "content": "It's hard to imagine both hot summers and cold winters without cooling and heating systems.",
+        "text1": "❄️ Our cooling systems are designed to provide clean, fresh, and comfortable air by removing excess heat, moisture, and dust.",
+        "text2": "🔥 Modern heating solutions give you stable temperatures, energy savings, and long-term reliability. Our systems guarantee warmth even in the coldest weather conditions, ensuring your family's comfort.",
+        "text3": "🌍 We use innovative technologies that reduce energy consumption with minimal environmental impact.",
+        "text4": "🔧 Our specialists design and install cooling and heating systems that perfectly meet the requirements of your home, office, or other spaces.",
+        "text5": "💡 Choose us, and you'll receive reliable, modern, and high-quality systems that will maintain your comfort and health in any season."
+      },
+      "smoke_extraction": {
+        "content": "Smoke extraction and firefighting systems ensure safety and rapid response in emergencies. They not only reduce fire risks but also protect lives and property.",
+        "text1": "🔥 Smoke extraction systems quickly remove smoke and toxic gases, ensuring clean air and visibility, which is vital for evacuation and fire management.",
+        "text2": "💦 Our firefighting systems are designed to respond quickly and extinguish fires using modern solutions, including water, gas, or foam mechanisms. They provide maximum protection without causing unnecessary damage to the environment or property.",
+        "text3": "🔧 Our experts will help you choose and install firefighting and smoke extraction systems, tailoring them to the characteristics and needs of your space.",
+        "text4": "💡 Fire prevention and control have never been more efficient. Choose our solutions to create a safe and protected environment in your space."
+      },
+      "water_supply_sewerage": {
+        "content": "The success of the water supply system depends on its reliability and efficiency, and we know this best.",
+        "text1": "🔧 Latest technologies",
+        "text2": "🤝 Custom projects",
+        "text3": "💡 Your comfort is our goal"
+      }
+    },
+    "trust_me": "Trust our professional team with the design, installation, and maintenance of your ventilation, cooling, and heating systems. We ensure quality and efficiency while considering your needs and the unique characteristics of your space.",
+    "whoCanApplyTo": "Who can apply to us",
+    "residentialComplexes": "residential complexes",
+    "hotelRestaurantComplexes": "hotel and restaurant complexes",
+    "medicalCenters": "medical centers",
+    "businessCenters": "business centers",
+    "productionSpaces": "production spaces",
+    "educationalInstitutions": "educational institutions",
+    "partners": "Partners",
+    "partnersBtn": "Become a Partner"
+  },
+  "service": {
+    "description": "We have been offering high-quality products for over 15 years, made from various thicknesses of black and galvanized sheet metal, meeting international standards.",
+    "quality": "High quality and durability",
+    "precision": "Precise production of any sizes and designs",
+    "flexibility": "Fast and flexible production",
+    "competitivePrices": "Competitive prices",
+    "support": "Support and consulting in finding the best solutions for your projects",
+    "allService": "All Services"
+  },
+  "about": {
+    "title": "About Our Company",
+    "content": "Our company is involved in the design and implementation of ventilation, heating, smoke extraction, and water supply systems. Specializing in the production of high-quality air ducts made from galvanized sheet metal, we ensure the comfort and safety of our customers.",
+    "experience": "Our Experience",
+    "experienceContent": "With over 15 years of experience, our team has successfully completed projects of varying complexity, always ensuring high efficiency and quality.",
+    "priorities": {
+      "title": "Our Priorities",
+      "items": {
+        "quality": "Quality. We work only with high-quality materials and modern technologies, ensuring the longevity and reliability of the systems.",
+        "individual_approach": "Individual approach. We offer tailored solutions for each client based on their needs and project specifics.",
+        "team": "Professional team. Our experienced specialists constantly improve their skills, keeping up with the industry's innovations.",
+        "timeliness": "Timeliness. All work is completed within the agreed timeframe without compromising on quality."
+      }
     }
+  },
+  "projects": {
+    "diferSect": "different fields",
+    "completed": "Completed ",
+    "complex": {
+      "davitashenComplex": "Davitashen Residential Complex",
+      "arabkirComplex": "Arabkir, Yerevan Adonts 19/8 Radiation Complex"
+    },
+    "hotelRes": {
+      "hrashqAygi": "Hrashq Aygi, Mkhchyan",
+      "vahagniHall": "Vahagni Hall, Aygevan",  
+      "darlingHall": "Darling Hall, Sevan",
+      "fenixComplex": "Fenix Complex, Kapan"
+    },
+    "medicCenters": {
+      "kapan": "Kapan Medical Center",
+      "mexri":  "Meghri Medical Center",  
+      "qajaran": "Qajaran Medical Center",
+      "stepanakert": "Stepanakert Medical Center",
+      "sevan": "Sevan Medical Center"
+    },
+    "allSector": {
+      "kilikia": "Киликия Пивоварня",
+      "polElyus": "Artsakh's 'Pol Elyuari House of the Francophonie Center'",
+      "akvatek": "Akvatek",
+      "airport": "Syunik Airport"
+    }
+  },
+  "product": {
+    "fullName1": "boiler 50kw",
+    "fullName2": "mineral wool",
+    "fullName3": "boiler 24kw",
+    "fullName4": "ducted fan coil",
+    "fullName5": "electric water heater volume",
+    "fullName6": "accumulator",
+    "fullName7": "boiler 32kw",
+    "fullName8": "insulation box",
+    "fullName9": "guide",
+    "fullName10": "corner guide",
+    "fullName11": "metal fastener",
+    "fullName12": "self-adhesive insulator",
+    "fullName13": "chiller",
+    "fullName14": "duct air blower",
+    "fullName15": "cassette fan coil",
+    "fullName16": "expansion tank"
+  },
+  "contact": {
+    "officeAddress": "Address",
+    "officeMail": "Email",
+    "officePhone": "Phone",
+    "followMe": "Join us",
+    "yourMessegeMe": "Send us a message",
+    "name": "First Last Name",
+    "message": "Message",
+    "send": "send"
+  },
+  "footer_text": "All rights reserved. Created by High-Tech Service."
 }

@@ -176,7 +176,7 @@
 
 /* //////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .home4_content {
-    background-color: var(--secound-color);
+    background-color: rgb(0, 0, 0, 0.329);
     width: 100%;
     height: auto;
     text-align: center;

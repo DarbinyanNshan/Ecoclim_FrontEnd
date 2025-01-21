@@ -3,9 +3,9 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 import "./style.css";
 import logo from "../../assets/images/logo.png";
-import { BiMap } from "react-icons/bi";
-import { GoMail } from "react-icons/go";
-import { FiPhoneCall } from "react-icons/fi";
+// import { BiMap } from "react-icons/bi";
+// import { GoMail } from "react-icons/go";
+// import { FiPhoneCall } from "react-icons/fi";
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from "../../i18n/LanguageSwitcher";
 
@@ -76,7 +76,7 @@ export const NavBar = () => {
 
     return (
         <>
-            <div className="info">
+            {/* <div className="info">
                 <div className="contact-data">
                     <a href="mailto:info.ecoclim@gmail.com" className="mail">
                         <span><GoMail /></span> {t("mail")}
@@ -91,7 +91,7 @@ export const NavBar = () => {
                 <div className="address">
                     <p className="map-text"><span><BiMap /></span> {t('address')}</p>
                 </div>
-            </div>
+            </div> */}
             <nav ref={navRef} className={`navbar ${isFixed ? "fixed" : ""}`}>
                 <div className="logo" onClick={onClick}>
                     <img src={logo} alt="Logo" />
@@ -104,6 +104,7 @@ export const NavBar = () => {
                     )}
                     <NavLink to="/" onClick={() => setIsOpen(false)}>{t('navBar.home')}</NavLink>
                     <NavLink to="/about" onClick={() => { setIsOpen(false); scrollToTop(); }}>{t('navBar.about')}</NavLink>
+                    <NavLink to="/projects" onClick={() => { setIsOpen(false); scrollToTop(); }}>{t('navBar.projects')}</NavLink>
                     <NavLink to="/service" onClick={() => { setIsOpen(false); scrollToTop(); }}>{t('navBar.service')}</NavLink>
                     <NavLink to="/product" onClick={() => { setIsOpen(false); scrollToTop(); }}>{t('navBar.product')}</NavLink>
                     <NavLink to="/contact" onClick={() => { setIsOpen(false); scrollToTop(); }}>{t('navBar.contact')}</NavLink>
@@ -118,3 +119,4 @@ export const NavBar = () => {
         </>
     );
 };
+ 

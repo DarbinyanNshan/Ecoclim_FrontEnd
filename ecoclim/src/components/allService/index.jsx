@@ -11,7 +11,7 @@ import fallbackImage from "../../assets/images/fallback/fallback.jpg";
 
 export const ServiceContent = () => {
   const [selectedService, setSelectedService] = useState(null);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const services = [
     {

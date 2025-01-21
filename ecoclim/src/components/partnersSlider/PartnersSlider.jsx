@@ -12,6 +12,7 @@ import logo5 from '../../assets/images/logo/logo5.png';
 import logo6 from '../../assets/images/logo/logo6.png';
 import logo7 from '../../assets/images/logo/logo7.png';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const partners = [
     { name: 'Partner 1', logo: logo1 },
@@ -25,6 +26,8 @@ const partners = [
 
 const PartnersSlider = () => {
     const navigate = useNavigate();
+    const { t } = useTranslation();
+
 
     const settings = {
         dots: true,
@@ -63,7 +66,7 @@ const PartnersSlider = () => {
     };
     return (
         <div className="partners">
-            <h2>Գործընկերներ</h2>
+            <h2>{t("home.partners")}</h2>
             <Slider {...settings}>
                 {partners.map((partner, index) => (
                     <div key={index}>
@@ -71,7 +74,7 @@ const PartnersSlider = () => {
                     </div>
                 ))}
             </Slider>
-            <button onClick={onContact}>Դառնալ Գործընկեր</button>
+            <button onClick={onContact}>{t("home.partnersBtn")}</button>
         </div>
     );
 };

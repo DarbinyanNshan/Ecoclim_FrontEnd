@@ -73,6 +73,8 @@ export const Home = () => {
         { icon: icon6, key: 'home.educationalInstitutions' },
     ];
 
+    
+   
     return (
         <div>
             <SliderComponent />
@@ -118,8 +120,7 @@ export const Home = () => {
                 </div>
             </div>
 
-            <div className="home4_content">
-                <h6>{t('home.whoCanApply')}</h6>
+            <div className="home4_content" >
                 <h2>{t('home.whoCanApplyTo')}</h2>
                 <div className="home4_content_text">
                     {items.map((item, index) => (

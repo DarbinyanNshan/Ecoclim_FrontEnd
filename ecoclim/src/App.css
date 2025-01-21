@@ -1,30 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box ;
+  box-sizing: border-box;
   font-family: "Roboto";
 }
 
 body {
-  background-color: black;
+  background: linear-gradient(289deg, #00122b, #000000, #000000, #001e46);
+  background-size: 240% 240%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 :root {
-  --secound-bg-color: #0a0a23; 
-  --secound-color:#1b1b1b;
-  --bg-color: #000000; 
+  --secound-bg-color: #0a0a23;
+  --secound-color: #1b1b1b;
+  --bg-color: #000000;
   --text-color: #b3b3b3;
-  --content-color: #ffaa00; 
+  --content-color: #ffaa00;
   --title-color: #ffffff;
 }
-/* :root {
-  --secound-bg-color: #00024a;
-  --bg-color: #fff;
-  --text-color: #757575;
-  --content-color:#ed8506;
-  --title-color: #ffffff;
-} */
-
 
 ::-webkit-scrollbar {
   width: 0.6rem;

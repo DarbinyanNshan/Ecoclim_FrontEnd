@@ -221,6 +221,9 @@
     width: 100%;
 }
 @media (max-width: 1000px) {
+    .contact-info{
+        display: none;
+    }
     .contact-form {
         width: 90%;
     }
