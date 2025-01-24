@@ -103,26 +103,32 @@
     "completed": "Completed ",
     "complex": {
       "davitashenComplex": "Davitashen Residential Complex",
-      "arabkirComplex": "Arabkir, Yerevan Adonts 19/8 Radiation Complex"
+      "arabkirComplex": "Arabkir, Yerevan Adonts 19/8 Radiation Complex",
+      "nazarbekyanComplex": "Ajapnyak, Nazarbekyan 41/1, 41/8, Nazarbekyan Towers",
+      "manandyanComplex": "Kentron, Manandyan 41/44"
     },
     "hotelRes": {
       "hrashqAygi": "Hrashq Aygi, Mkhchyan",
-      "vahagniHall": "Vahagni Hall, Aygevan",  
+      "vahagniHall": "Vahagni Hall, Aygevan",
       "darlingHall": "Darling Hall, Sevan",
-      "fenixComplex": "Fenix Complex, Kapan"
+      "fenixComplex": "Fenix Complex, Kapan",
+      "qaravan": "Karavan restaurant complex, Kapan"
     },
     "medicCenters": {
       "kapan": "Kapan Medical Center",
-      "mexri":  "Meghri Medical Center",  
+      "mexri": "Meghri Medical Center",
       "qajaran": "Qajaran Medical Center",
       "stepanakert": "Stepanakert Medical Center",
-      "sevan": "Sevan Medical Center"
+      "sevan": "Sevan Medical Center",
+      "exegnadzor": "Eghegnadzor Medical Center"
     },
     "allSector": {
       "kilikia": "Киликия Пивоварня",
       "polElyus": "Artsakh's 'Pol Elyuari House of the Francophonie Center'",
       "akvatek": "Akvatek",
-      "airport": "Syunik Airport"
+      "airport": "Syunik Airport",
+      "arevikMankapartez": "Arevik Community of Armenia Armavir Kindergarten",
+      "gandzaqarDproc": "Tavush Region, Gandzaqar School"
     }
   },
   "product": {

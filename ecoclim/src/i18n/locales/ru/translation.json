@@ -103,26 +103,32 @@
     "completed": "Законченный ",
     "complex": {
       "davitashenComplex": "Жилой комплекс Давиташен",
-      "arabkirComplex": "Арабкир, Ереван Адонц 19/8 Радио комплекс"
+      "arabkirComplex": "Арабкир, Ереван Адонц 19/8 Радио комплекс",
+      "nazarbekyanComplex": "Ачапняк, Назарбекян 41/1, 41/8, Nazarbekyan Towers",
+      "manandyanComplex": "Центр, Манандян 41/44"
     },
     "hotelRes": {
       "hrashqAygi": "Hrashq Aygi, Mkhchyan",
-      "vahagniHall": "Vahagni Hall, Aygevan",  
+      "vahagniHall": "Vahagni Hall, Aygevan",
       "darlingHall": "Darling Hall, Sevan",
-      "fenixComplex": "Fenix Complex, Kapan"
+      "fenixComplex": "Fenix Complex, Kapan",
+      "qaravan": "Ресторанный комплекс Караван, Капан"
     },
     "medicCenters": {
       "kapan": "Капан Медицинский Центр",
-      "mexri":  "Мегри Медицинаский Центр",  
-      "qajaran":  "Каджаран Медицинаский Центр",
+      "mexri": "Мегри Медицинаский Центр",
+      "qajaran": "Каджаран Медицинаский Центр",
       "stepanakert": "Степанакертский Медицинаский Центр",
-      "sevan": "Севан Медицинаский Центр"
+      "sevan": "Севан Медицинаский Центр",
+      "exegnadzor": "Ехегнадзор Медицинаский Центр"
     },
     "allSector": {
       "kilikia": "Киликия Пивоварня",
       "polElyus": "Арцахский 'Дом Пол Эльюари Центр Франкофонии'",
       "akvatek": "Акватек",
-      "airport": "Сюникский Аэропорт"
+      "airport": "Сюникский Аэропорт",
+      "arevikMankapartez": "Детский сад Армавирской общины Аревик",
+      "gandzaqarDproc": "Тавушская область, школа Гандзакар"
     }
   },
   "product": {

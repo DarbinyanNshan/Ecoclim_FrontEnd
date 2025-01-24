@@ -8,22 +8,28 @@ import C_img2 from "../../assets/images/projects/aparatmentComplexesx/img2.png";
 import C_img3 from "../../assets/images/projects/aparatmentComplexesx/img3.png";
 import C_img4 from "../../assets/images/projects/aparatmentComplexesx/img4.png";
 import C_img5 from "../../assets/images/projects/aparatmentComplexesx/img5.png";
+import C_img6 from "../../assets/images/projects/aparatmentComplexesx/img6.png";
+import C_img7 from "../../assets/images/projects/aparatmentComplexesx/img7.png";
 
 import HRC_img1 from "../../assets/images/projects/hotelRes/img1.png";
 import HRC_img2 from "../../assets/images/projects/hotelRes/img2.png";
 import HRC_img3 from "../../assets/images/projects/hotelRes/img3.png";
 import HRC_img4 from "../../assets/images/projects/hotelRes/img4.png";
+import HRC_img5 from "../../assets/images/projects/hotelRes/img5.png";
 
 import MC_img1 from "../../assets/images/projects/medicCenter/img1.jpg";
 import MC_img2 from "../../assets/images/projects/medicCenter/img2.jpg";
 import MC_img3 from "../../assets/images/projects/medicCenter/img3.jpg";
 import MC_img4 from "../../assets/images/projects/medicCenter/img4.jpg";
 import MC_img5 from "../../assets/images/projects/medicCenter/img5.jpg";
+import MC_img6 from "../../assets/images/projects/medicCenter/img6.jpg";
 
 import F_img1 from "../../assets/images/projects/differentSectors/img1.jpg";
 import F_img2 from "../../assets/images/projects/differentSectors/img2.jpg";
 import F_img3 from "../../assets/images/projects/differentSectors/img3.jpg";
 import F_img4 from "../../assets/images/projects/differentSectors/img4.jpg";
+import F_img5 from "../../assets/images/projects/differentSectors/img5.jpg";
+import F_img6 from "../../assets/images/projects/differentSectors/img6.jpg";
 
 import { useTranslation } from "react-i18next";
 
@@ -42,6 +48,8 @@ export const ProjectsContent = () => {
         { img: C_img3, title: t("projects.complex.arabkirComplex") },
         { img: C_img4, title: t("projects.complex.arabkirComplex") },
         { img: C_img5, title: t("projects.complex.arabkirComplex") },
+        { img: C_img6, title: t("projects.complex.nazarbekyanComplex") },
+        { img: C_img7, title: t("projects.complex.manandyanComplex") },
     ];
 
     const hotelRes = [
@@ -49,6 +57,7 @@ export const ProjectsContent = () => {
         { img: HRC_img2, title: t("projects.hotelRes.vahagniHall") },
         { img: HRC_img3, title: t("projects.hotelRes.darlingHall") },
         { img: HRC_img4, title: t("projects.hotelRes.fenixComplex") },
+        { img: HRC_img5, title: t("projects.hotelRes.qaravan") },
     ];
     const medicCenters = [
         { img: MC_img1, title: t("projects.medicCenters.kapan") },
@@ -56,12 +65,15 @@ export const ProjectsContent = () => {
         { img: MC_img3, title: t("projects.medicCenters.qajaran") },
         { img: MC_img4, title: t("projects.medicCenters.stepanakert") },
         { img: MC_img5, title: t("projects.medicCenters.sevan") },
+        { img: MC_img6, title: t("projects.medicCenters.exegnadzor") },
     ];
     const allSector = [
         { img: F_img1, title: t("projects.allSector.kilikia") },
         { img: F_img2, title: t("projects.allSector.polElyus") },
         { img: F_img3, title: t("projects.allSector.akvatek") },
-        { img: F_img4, title: t("projects.allSector.airport") }
+        { img: F_img4, title: t("projects.allSector.airport") },
+        { img: F_img5, title: t("projects.allSector.arevikMankapartez") },
+        { img: F_img6, title: t("projects.allSector.gandzaqarDproc") },
     ];
  
     const openModal = (index, category) => {

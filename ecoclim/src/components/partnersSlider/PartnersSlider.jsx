@@ -11,6 +11,8 @@ import logo4 from '../../assets/images/logo/logo4.png';
 import logo5 from '../../assets/images/logo/logo5.png';
 import logo6 from '../../assets/images/logo/logo6.png';
 import logo7 from '../../assets/images/logo/logo7.png';
+import logo8 from '../../assets/images/logo/logo8.png';
+import logo9 from '../../assets/images/logo/logo9.png';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -20,8 +22,10 @@ const partners = [
     { name: 'Partner 3', logo: logo3 },
     { name: 'Partner 4', logo: logo4 },
     { name: 'Partner 5', logo: logo5 },
-    { name: 'Partner 5', logo: logo6 },
-    { name: 'Partner 5', logo: logo7 },
+    { name: 'Partner 6', logo: logo6 },
+    { name: 'Partner 7', logo: logo7 },
+    { name: 'Partner 8', logo: logo8 },
+    { name: 'Partner 9', logo: logo9 },
 ];
 
 const PartnersSlider = () => {
